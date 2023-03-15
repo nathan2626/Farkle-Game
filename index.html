@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="index.js"></script>
+	<title>Farkle!</title>
+</head>
+
+<body>
+	<h1 class="content header">Bienvenue sur Farkle!</h1>
+
+	<div class="content">
+		<div class="dice"> 
+			<img src="img/1.png" id="die1">
+			<img src="img/2.png" id="die2">
+			<img src="img/3.png" id="die3">
+			<img src="img/4.png" id="die4">
+			<img src="img/5.png" id="die5">
+			<img src="img/6.png" id="die6">
+		</div>
+	</div>
+
+	<div class="content score" id="row-score"></div>
+	
+	<div class="players">
+		<div class="player">
+			<div class="name">Joueur 1</div>
+			<div class="score" id="player1-score">0</div>
+		</div>
+		<div class="player">
+			<div class="name">Joueur 2</div>
+			<div class="score" id="player2-score">0</div>
+		</div>
+	</div>
+
+	<div class="turns">
+		Tour: <span id="turn-number">1</span>
+	</div>
+	<div class="dice-remaining">
+		Dés restants: <span id="dice-remaining">6</span>
+	</div>
+	
+	<div class="content">
+		<button class="button roll column" >Lancer dés</button>
+		<button class="button bank column" >S'arreter</button>
+	</div>
+</body>
+</html>
+
+
+
